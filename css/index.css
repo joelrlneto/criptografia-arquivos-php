@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Jura');
+
+* {
+    font-family: "Jura";
+}
+
+body {
+    background: #c4c4c4;
+    margin:0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.box form {
+    background: #ffffff;
+    margin:5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding:10px;
+    height: 300px;
+}
+
+.box form input,.box form button {
+    margin-bottom: 10px;
+    height: 30px;
+    text-align: center;
+}
+
+.box form h3 {
+    text-align: center;
+}
+
+.box-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.box-rodape {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-grow: 1;
+}
+
+.box-rodape input[type=submit]{
+    height: 30px;
+    border:none;
+}
+
+.box-criptografia form {
+    border-top: 5px solid #c0392b;
+}
+
+.box-criptografia form h3 {
+    color: #c0392b;
+}
+
+.box-criptografia form input[type=submit] {
+    background-color: #c0392b;
+    color: #fff;
+}
+
+.box-descriptografia form {
+    border-top: 5px solid #16a085;
+}
+
+.box-descriptografia form h3 {
+    color: #16a085;
+}
+
+.box-descriptografia form input[type=submit] {
+    background-color: #16a085;
+    color: #fff;
+}

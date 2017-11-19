@@ -1,0 +1,6 @@
+php-apache:
+  image: php:7.0-apache
+  ports:
+    - "8080:80"
+  volumes:
+    - "./:/var/www/html"
