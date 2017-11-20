@@ -7,34 +7,43 @@
     <title>Crypto</title>
   </head>
   <body>
-    <div class="box box-criptografia">
-        <form action="app/encrypt.php" method="post" enctype="multipart/form-data">
-            <div class="box-conteudo">
-                <h3>Criptografar</h3>
-                <label for="arquivo">Arquivo</label>
-                <input type="file" name="arquivo">
-                <label for="chave">Chave</label>
-                <input type="text" name="chave" required id="txt-chave-criptografia" placeholder="Chave para criptografar o arquivo" title="Informe uma chave de 16 caracteres de sua preferência ou clique em Gerar uma chave">
-                <button id="btn-gerar-chave">Gerar uma chave</button>
-            </div>
-            <div class="box-rodape">
-                <input type="submit" value="Criptografar arquivo">
-            </div>
-        </form>
+    <div class="cabecalho">
+        <img src="img/unp_logo.png" alt="UnP" class="logo">
+        <p>Gestão da Tecnologia da Informação - 4NA</p>
+        <p>Segurança de Sistemas e Redes</p>
+        <p>Avaliação Final - Unidade III</p>
+        <h1>Projeto: CryptoPHP</h1>
     </div>
-    <div class="box box-descriptografia">
-        <form action="app/decrypt.php" method="post" enctype="multipart/form-data">
-            <div class="box-conteudo">
-                <h3>Descriptografar</h3>
-                <label for="arquivo">Arquivo</label>
-                <input type="file" name="arquivo">
-                <label for="chave">Chave</label>
-                <input type="text" name="chave" required placeholder="Chave para descriptografar o arquivo">
-            </div>
-            <div class="box-rodape">
-                <input type="submit" value="Descriptografar arquivo">
-            </div>
-        </form>
+    <div class="boxes">
+        <div class="box box-criptografia">
+            <form action="app/encrypt.php" method="post" enctype="multipart/form-data">
+                <div class="box-conteudo">
+                    <h3>Criptografar</h3>
+                    <label for="arquivo">Arquivo</label>
+                    <input type="file" name="arquivo">
+                    <label for="chave">Chave</label>
+                    <input type="text" name="chave" required id="txt-chave-criptografia" placeholder="Chave para criptografar o arquivo" title="Informe uma chave de 16 caracteres de sua preferência ou clique em Gerar uma chave">
+                    <button id="btn-gerar-chave">Gerar uma chave</button>
+                </div>
+                <div class="box-rodape">
+                    <input type="submit" value="Criptografar arquivo">
+                </div>
+            </form>
+        </div>
+        <div class="box box-descriptografia">
+            <form action="app/decrypt.php" method="post" enctype="multipart/form-data">
+                <div class="box-conteudo">
+                    <h3>Descriptografar</h3>
+                    <label for="arquivo">Arquivo</label>
+                    <input type="file" name="arquivo">
+                    <label for="chave">Chave</label>
+                    <input type="text" name="chave" required placeholder="Chave para descriptografar o arquivo">
+                </div>
+                <div class="box-rodape">
+                    <input type="submit" value="Descriptografar arquivo">
+                </div>
+            </form>
+        </div>
     </div>
     <script>
         window.onload = function(){

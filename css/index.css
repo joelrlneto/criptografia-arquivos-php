@@ -9,11 +9,28 @@ body {
     margin:0px;
     padding: 0px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     height: 100vh;
+}
+
+.cabecalho {
+    text-align: center;
+}
+
+.cabecalho p {
+    margin: 5px;
+}
+
+.cabecalho .logo {
+    max-height: 100px;
+}
+.boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .box form {
@@ -80,4 +97,18 @@ body {
 .box-descriptografia form input[type=submit] {
     background-color: #16a085;
     color: #fff;
+}
+
+@media screen and (max-width:600px){
+    body {
+        height: auto;
+    }
+
+    .box form {
+        width: 90vw
+    }
+
+    .cabecalho .logo {
+        max-width: 80vw;
+    }
 }
