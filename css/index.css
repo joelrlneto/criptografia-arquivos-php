@@ -5,7 +5,7 @@
 }
 
 body {
-    background: rgb(0,0,0,0.7) url("../img/encryption.jpg");
+    background: rgb(0,0,0,0.7) url("../img/encryption-2.jpg");
     background-blend-mode: darken;
     margin:0px;
     padding: 0px;
@@ -18,7 +18,7 @@ body {
 
 .cabecalho {
     text-align: center;
-    color:#fff
+    color:#fff  
 }
 
 .cabecalho p {
