@@ -5,7 +5,8 @@
 }
 
 body {
-    background: #c4c4c4;
+    background: rgb(0,0,0,0.7) url("../img/encryption.jpg");
+    background-blend-mode: darken;
     margin:0px;
     padding: 0px;
     display: flex;
@@ -17,6 +18,7 @@ body {
 
 .cabecalho {
     text-align: center;
+    color:#fff
 }
 
 .cabecalho p {
@@ -75,10 +77,16 @@ body {
 
 .box-criptografia form {
     border-top: 5px solid #c0392b;
+    /* background: url("../img/crypto.jpg");
+    background-size: cover;
+    color:#fff;
+    font-weight: bold; */
 }
 
 .box-criptografia form h3 {
     color: #c0392b;
+    font-size: x-large;
+    border-bottom: 1px solid #fff
 }
 
 .box-criptografia form input[type=submit] {
@@ -88,10 +96,16 @@ body {
 
 .box-descriptografia form {
     border-top: 5px solid #16a085;
+    /* background: url("../img/crypto-2.jpg");
+    background-size: cover;
+    color:#fff;
+    font-weight: bold; */
 }
 
 .box-descriptografia form h3 {
     color: #16a085;
+    font-size: x-large;
+    border-bottom: 1px solid #fff
 }
 
 .box-descriptografia form input[type=submit] {

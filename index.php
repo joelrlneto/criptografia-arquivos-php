@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="cabecalho">
-        <img src="img/unp_logo.png" alt="UnP" class="logo">
+        <img src="img/unp_logo-2.png" alt="UnP" class="logo">
         <p>Gestão da Tecnologia da Informação - 4NA</p>
         <p>Segurança de Sistemas e Redes</p>
         <p>Avaliação Final - Unidade III</p>
